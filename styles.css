@@ -1,0 +1,25 @@
+body{
+    background-color: #3D77A0;
+}
+.navigation{
+display: inline;
+align-items: center;
+justify-items: center;
+color: white;
+border: 2px solid black;
+width: auto;
+text-align: center;
+
+
+}
+a{
+    align-items: center;
+    color: white;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    width: 2000px;
+height: 500px;
+
+    
+}

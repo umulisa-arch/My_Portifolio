@@ -23,3 +23,32 @@ height: 500px;
 
     
 }
+#links{
+    /*text-align: center;*/
+    padding: 20px;
+    width: 1450px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(15, 15, 49); 
+    margin: 10px;
+      
+    }
+    a{
+        text-decoration: none;
+    }
+   
+    .link:visited {
+        color: rgb(59, 207, 14); /* Change color for visited links */
+      }
+      a:hover{
+        background-color: #3D77A0;
+      }
+      .logo{
+        width: 8rem;
+        height: 5rem;
+        border-radius: 50%;
+      }
+     

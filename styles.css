@@ -1,14 +1,15 @@
 body{
-    background-color: #3D77A0;
+        background-color: #3D77A0;
+    
 }
 .navigation{
-display: inline;
-align-items: center;
-justify-items: center;
-color: white;
-border: 2px solid black;
-width: auto;
-text-align: center;
+        display: inline;
+        align-items: center;
+        justify-items: center;
+        color: white;
+        border: 2px solid black;
+        width: auto;
+        text-align: center;
 
 
 }
@@ -25,53 +26,86 @@ a{
 }
 #links{
     /*text-align: center;*/
-    padding: 20px;
-    width: 1450px;
-    height: 50px;
-    border-radius: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(15, 15, 49); 
-    margin: 10px;
+        padding: 20px;
+        width: 1450px;
+        height: 50px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(15, 15, 49); 
+        margin: 10px;
       
     }
-    a{
+a{
         text-decoration: none;
     }
    
-    .link:visited {
+.link:visited {
         color: rgb(59, 207, 14); /* Change color for visited links */
       }
-      a:hover{
+a:hover{
         background-color: #3D77A0;
       }
-      .logo{
+.logo{
         width: 8rem;
         height: 5rem;
         border-radius: 50%;
       }
-      .container1{
+.container1{
         margin-left: 20px;
         margin-top: 200px;
         display: flex;
         justify-content: space-between;
       }
-      .homephoto{
+.homephoto{
         width: 10rem;
         height: 10rem;
         border-radius: 50%;
 
       }
-      .socialmedia{
+.socialmedia{
         padding: 60px;
         justify-content: space-between;
       }
-      .social1{
+.social1{
         margin-top: 50px;
         padding: 20px;
       }
       /*.social1:hover{
 background-color: rgb(21, 117, 85);
+      }*/
+      
+.certificate{
+        width: 80px;
+        height: 5px;
+        background-color: rgb(15, 15, 49);
+        border-radius: 30px;
+        margin-left: 20px;
       }
+.certificate:hover{
+        background-color: #0b87df;
+  
+      }
+
+.phoneparagraph{
+        text-align: center;
+        margin-top: 100px;
+        background-color: rgb(15, 15, 49);
+        height: 40px;
+        align-items: center;
+        /* border-radius: 50px; */
+        padding: 20px;
+        padding-top: 50px;
+        color: white;
+        margin-bottom: -6px;
+        margin-left: -7px;
+        margin-right: -6px;
+}
+.mailcall{
+width: 200px;
+height: 200px;
+background-color: black;
+}
+
      

@@ -103,9 +103,51 @@ background-color: rgb(21, 117, 85);
         margin-right: -6px;
 }
 .mailcall{
-width: 200px;
+width: 300px;
 height: 200px;
-background-color: black;
+background-color: rgb(225, 197, 197);
+margin-left: 20px;
+border-radius: 10px;
 }
-
+.pmailcall{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding-top: 55px;
+}
+.spanemail{
+        color: blue;
+}
      
+.contact2{
+        width: 300px;
+        height: 500px;
+        background-color: rgb(225, 197, 197);
+        border-radius: 10px;
+}
+.Maincontact{
+        justify-content: space-around;
+        display: flex;
+        margin-top: 10rem;
+}
+form{
+        align-items: center;
+        padding-left: 20px;
+}
+input{
+        border-radius: 5px;
+        padding: 5px;
+}
+textarea{
+        border-radius: 5px;
+}
+.sendmessage{
+        color: white;
+        background-color: rgb(15, 15, 49);
+        border-radius: 5px;   
+        padding: 7px;
+        margin-left: 45px;
+        cursor: pointer;
+}
+.sendmessage:hover{
+        background-color: #0b87df;
+}

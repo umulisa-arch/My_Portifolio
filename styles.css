@@ -80,6 +80,11 @@ font-size: large;    }
         margin-top: 50px;
         padding: 20px;
       }
+ svg:hover{
+background-color: #2724b4;
+padding: 10px;
+border-radius: 50%;
+      }
       /*.social1:hover{
 background-color: rgb(21, 117, 85);
       }*/

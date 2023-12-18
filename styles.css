@@ -64,6 +64,14 @@ a:hover{
         border-radius: 50%;
 
       }
+.frontend{
+margin-left: 16px;
+color: rgb(46, 49, 50);
+font-weight: bold;  
+font-size: large;    }
+.namehome{
+        margin-left: 20px;
+}
 .socialmedia{
         padding: 60px;
         justify-content: space-between;
@@ -108,19 +116,20 @@ height: 200px;
 background-color: rgb(225, 197, 197);
 margin-left: 20px;
 border-radius: 10px;
+border: 2px solid blue;
 }
 .pmailcall{
         color: rgb(0, 0, 0);
         text-align: center;
-        padding-top: 55px;
+        padding-top: 50px;
 }
 .spanemail{
         color: blue;
 }
      
 .contact2{
-        width: 300px;
-        height: 500px;
+        width: 400px;
+        height: 530px;
         background-color: rgb(225, 197, 197);
         border-radius: 10px;
 }
@@ -131,23 +140,104 @@ border-radius: 10px;
 }
 form{
         align-items: center;
-        padding-left: 20px;
+        border-top: 5px solid rgb(40, 11, 185);
+        border-radius: 5px;
+        padding: 10px;
+        justify-content: center;
+        padding-left: 50px;
 }
 input{
+        padding: 6px;
         border-radius: 5px;
-        padding: 5px;
+        width: 250px;
 }
 textarea{
         border-radius: 5px;
 }
 .sendmessage{
         color: white;
-        background-color: rgb(15, 15, 49);
+        background-color: rgb(41, 41, 173);
         border-radius: 5px;   
         padding: 7px;
-        margin-left: 45px;
         cursor: pointer;
+        width: 270px;
 }
 .sendmessage:hover{
-        background-color: #0b87df;
+        background-color: #0ebf1d;
+}
+.MainAbout{
+        display: flex;
+        justify-content: space-around;
+}
+.about1{
+        background-color: rgb(193, 193, 210);
+        width: 800px;
+        color: black;
+}
+.about2{
+        background-image: url(AgneI.jpg);
+        width: 800px;
+        height: 800px;
+}
+.p1about{
+        text-align: center;
+}
+.mainservice{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 60px;
+}
+.h1service{
+        text-align: center;
+        margin-top: 100px; 
+        color:rgb(39, 39, 49);
+}
+hr{
+        width: 200px;
+       border: 1.5px solid rgb(107, 149, 179);
+}
+
+.mainp1{
+        display: flex;
+        padding-left: 30px;
+}
+.mainp2{
+        display: flex;
+        padding: 30px;
+}
+.mainp3{
+        display: flex;
+        padding-left: 30px;
+}
+.mainp4{
+        display: flex;
+        padding-left: 30px;
+}
+h1{
+        text-align: center;
+        
+}
+.h2{
+        text-align: center;
+        color: rgb(62, 65, 62);
+}
+.pr1{
+        padding-left: 50px;
+}
+.pr2{
+        padding-left: 50px;
+}
+.pr3{
+        padding-left: 50px;
+}
+.pr4{
+        padding-left: 50px;
+}
+.mainp5{
+        display: flex;
+        padding-left: 30px;
+
+}
+.pr5{
+        padding-left: 50px;
 }

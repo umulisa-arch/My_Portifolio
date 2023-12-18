@@ -59,18 +59,19 @@ a:hover{
         justify-content: space-between;
       }
 .homephoto{
-        width: 10rem;
-        height: 10rem;
+        width: 15rem;
+        height: 15rem;
         border-radius: 50%;
 
       }
 .frontend{
-margin-left: 16px;
+margin-left: 30px;
 color: rgb(46, 49, 50);
 font-weight: bold;  
-font-size: large;    }
+font-size: large;    
+}
 .namehome{
-        margin-left: 20px;
+        margin-left: 40px;
 }
 .socialmedia{
         padding: 60px;
@@ -212,19 +213,19 @@ hr{
 }
 
 .mainp1{
-        display: flex;
+        /* display: flex; */
         padding-left: 30px;
 }
 .mainp2{
-        display: flex;
+        /* display: flex; */
         padding: 30px;
 }
 .mainp3{
-        display: flex;
+        /* display: flex; */
         padding-left: 30px;
 }
 .mainp4{
-        display: flex;
+        /* display: flex; */
         padding-left: 30px;
 }
 h1{
@@ -234,6 +235,9 @@ h1{
 .h2{
         text-align: center;
         color: rgb(62, 65, 62);
+}
+#projects{
+        display: flex;
 }
 .pr1{
         padding-left: 50px;
@@ -248,7 +252,7 @@ h1{
         padding-left: 50px;
 }
 .mainp5{
-        display: flex;
+        /* display: flex; */
         padding-left: 30px;
 
 }

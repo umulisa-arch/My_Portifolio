@@ -181,9 +181,15 @@ textarea{
         width: 800px;
         height: 800px;
 }
+
 .skills{
         padding: 30xp;
-        text-align: center;
+        text-align: left;
+        
+}
+.skill1{
+        margin-left: 250px;
+        font-weight: bold;
 }
 
 .p1about{

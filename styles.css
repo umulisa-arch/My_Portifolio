@@ -75,16 +75,13 @@ font-size: large;    }
 .socialmedia{
         padding: 60px;
         justify-content: space-between;
+        margin-top: 2px;
       }
 .social1{
         margin-top: 50px;
         padding: 20px;
       }
- svg:hover{
-background-color: #2724b4;
-padding: 10px;
-border-radius: 50%;
-      }
+      
       /*.social1:hover{
 background-color: rgb(21, 117, 85);
       }*/
@@ -184,6 +181,11 @@ textarea{
         width: 800px;
         height: 800px;
 }
+.skills{
+        padding: 30xp;
+        text-align: center;
+}
+
 .p1about{
         text-align: center;
 }

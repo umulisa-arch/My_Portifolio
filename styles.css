@@ -35,6 +35,8 @@ a{
         align-items: center;
         background-color: rgb(15, 15, 49); 
         margin: 10px;
+        position: fixed; 
+        top: -10px;
       
     }
 a{
@@ -228,6 +230,9 @@ hr{
         /* display: flex; */
         padding-left: 30px;
 }
+.mainp6{
+        padding-left: 30px;
+}
 h1{
         text-align: center;
         
@@ -235,6 +240,9 @@ h1{
 .h2{
         text-align: center;
         color: rgb(62, 65, 62);
+}
+.projecth1{
+        margin-top: 120px;
 }
 #projects{
         display: flex;

@@ -236,22 +236,27 @@ hr{
 
 .mainp1{
         /* display: flex; */
-        padding-left: 30px;
+        padding: 30px;
+        border: 2px solid black;
 }
 .mainp2{
         /* display: flex; */
         padding: 30px;
+        border: 2px solid black;
 }
 .mainp3{
         /* display: flex; */
-        padding-left: 30px;
+        padding: 30px;
+        border: 2px solid black;
 }
 .mainp4{
         /* display: flex; */
-        padding-left: 30px;
+        padding: 30px;
+        border: 2px solid black;
 }
 .mainp6{
-        padding-left: 30px;
+        padding: 30px;
+        border: 2px solid black;
 }
 h1{
         text-align: center;

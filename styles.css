@@ -251,7 +251,8 @@ hr{
 }
 .mainp5{
         padding: 30px;
-        border: 2px solid black;      
+        border: 2px solid black;  
+        margin: 0 20px;    
 }
 .mainp4{
         /* display: flex; */

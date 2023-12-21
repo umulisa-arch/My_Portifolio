@@ -237,9 +237,9 @@ hr{
 .mainp1{
         /* display: flex; */
         padding: 30px;
-        border: 2px solid black;
         margin: 0 20px;
         background-color: #9babb6;
+        box-shadow: 0 5px  5px 5px rgba(0, 0, 0, 0.5);
 }
 .mainp2{
         /* display: flex; */
@@ -301,11 +301,7 @@ h1{
 .pr4{
         padding-left: 50px;
 }
-.mainp5{
-        /* display: flex; */
-        padding-left: 30px;
 
-}
 .pr5{
         padding-left: 50px;
 }
@@ -314,4 +310,7 @@ h1{
 }
 #pragraph1,#pragraph2,#pragraph3,#pragraph4,#pragraph5,#pragraph6{
         text-align: center;
+}
+.linkproject {
+        align-items: center;
 }

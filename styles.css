@@ -295,22 +295,8 @@ h1{
 #projects{
         display: flex;
 }
-.pr1{
-        padding-left: 50px;
-}
-.pr2{
-        padding-left: 50px;
-}
-.pr3{
-        padding-left: 50px;
-}
-.pr4{
-        padding-left: 50px;
-}
 
-.pr5{
-        padding-left: 50px;
-}
+
 .p2{
         margin-top: -25px;
 }
@@ -319,4 +305,5 @@ h1{
 }
 #linkproject1, #linkproject2, #linkproject3, #linkproject4, #linkproject5, #linkproject6{
         text-align: center;
+        padding-top: 15px;
 }

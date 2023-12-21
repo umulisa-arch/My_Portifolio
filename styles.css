@@ -239,41 +239,47 @@ hr{
         padding: 30px;
         margin: 0 20px;
         background-color: #9babb6;
-        box-shadow: 0 5px  5px 5px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
+        border-radius: 6px;
 }
 .mainp2{
         /* display: flex; */
         padding: 30px;
-        border: 2px solid black;
         margin: 0 20px;
         background-color: #9babb6;
+        box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
+        border-radius: 6px;
 
 }
 .mainp3{
         /* display: flex; */
         padding: 30px;
-        border: 2px solid black;
         margin: 0 20px;
         background-color: #9babb6;
+        box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
+        border-radius: 6px;
 }
 .mainp5{
-        padding: 30px;
-        border: 2px solid black;  
+        padding: 30px; 
         margin: 0 20px;  
-        background-color: #9babb6;  
+        background-color: #9babb6; 
+        box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
+        border-radius: 6px; 
 }
 .mainp4{
         /* display: flex; */
         padding: 30px;
-        border: 2px solid black;
         margin: 0 20px;
         background-color: #9babb6;
+        box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
+        border-radius: 6px;
 }
 .mainp6{
         padding: 30px;
-        border: 2px solid black;
         margin: 0 20px;
         background-color: #9babb6;
+        box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
+        border-radius: 6px;
 }
 h1{
         text-align: center;

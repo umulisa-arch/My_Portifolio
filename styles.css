@@ -246,28 +246,34 @@ hr{
         padding: 30px;
         border: 2px solid black;
         margin: 0 20px;
+        background-color: #9babb6;
+
 }
 .mainp3{
         /* display: flex; */
         padding: 30px;
         border: 2px solid black;
         margin: 0 20px;
+        background-color: #9babb6;
 }
 .mainp5{
         padding: 30px;
         border: 2px solid black;  
-        margin: 0 20px;    
+        margin: 0 20px;  
+        background-color: #9babb6;  
 }
 .mainp4{
         /* display: flex; */
         padding: 30px;
         border: 2px solid black;
         margin: 0 20px;
+        background-color: #9babb6;
 }
 .mainp6{
         padding: 30px;
         border: 2px solid black;
         margin: 0 20px;
+        background-color: #9babb6;
 }
 h1{
         text-align: center;

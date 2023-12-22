@@ -239,18 +239,31 @@ textarea{
 .service1{
         border: 2px dotted black;
         padding: 20px;
+        background-color: rgb(150 150, 163);
+        border-radius: 5px;
+        
+        border-top: 2px solid blue;
+}
+.service1:hover{
+        transform: translateY(-10px);
 }
 .service2{
         border: 2px dotted black;
         padding: 20px;
+        background-color: rgb(150 150, 163);
+        border-radius: 5px;
 }
 .service3{
         border: 2px dotted black;
         padding: 20px;
+        background-color: rgb(150 150, 163);
+        border-radius: 5px;
 }
 .service4{
         border: 2px dotted black;
         padding: 20px;
+        background-color: rgb(150 150, 163);
+        border-radius: 5px;
 }
 .h1service{
         text-align: center;

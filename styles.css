@@ -236,6 +236,22 @@ textarea{
         justify-content: space-evenly;
         margin-top: 60px;
 }
+.service1{
+        border: 2px dotted black;
+        padding: 20px;
+}
+.service2{
+        border: 2px dotted black;
+        padding: 20px;
+}
+.service3{
+        border: 2px dotted black;
+        padding: 20px;
+}
+.service4{
+        border: 2px dotted black;
+        padding: 20px;
+}
 .h1service{
         text-align: center;
         margin-top: 100px; 

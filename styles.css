@@ -252,18 +252,21 @@ textarea{
         padding: 20px;
         background-color: rgb(150 150, 163);
         border-radius: 5px;
+        border-top: 2px solid yellow;
 }
 .service3{
         border: 2px dotted black;
         padding: 20px;
         background-color: rgb(150 150, 163);
         border-radius: 5px;
+        border-bottom: 2px solid red;
 }
 .service4{
         border: 2px dotted black;
         padding: 20px;
         background-color: rgb(150 150, 163);
         border-radius: 5px;
+        border-top: 2px solid rgb(0, 255, 0);
 }
 .h1service{
         text-align: center;

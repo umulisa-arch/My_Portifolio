@@ -15,6 +15,18 @@ body{
         background-color: #3D77A0;
     
 }
+/* .mehome{
+        animation: 2s ease forwards;
+        animation-delay: 1s;
+        opacity: 0.5;
+}
+@keyframes mehome{
+        0%{
+                transform: translateY(100px);
+                opacity: 0;
+        } */
+
+/* } */
 .navigation{
         display: inline;
         align-items: center;
@@ -306,4 +318,17 @@ h1{
 #linkproject1, #linkproject2, #linkproject3, #linkproject4, #linkproject5, #linkproject6{
         text-align: center;
         padding-top: 15px;
+}
+
+.p1 img{
+        transition: transform 0.3s ease;
+}
+.p1:hover img{
+        transform: translateY(20px);
+}
+.p2 img{
+        transition: transform 0.3s ease;
+}
+.p2:hover img{
+        transform: translateY(20px);
 }

@@ -237,36 +237,50 @@ textarea{
         margin-top: 60px;
 }
 .service1{
-        border: 2px dotted black;
+      
         padding: 20px;
         background-color: rgb(150 150, 163);
         border-radius: 5px;
         
         border-top: 2px solid blue;
+        box-shadow: black;
+        box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
 }
 .service1:hover{
-        transform: translateY(-10px);
+        transform: translateY(-10px) ;
 }
 .service2{
-        border: 2px dotted black;
+        
         padding: 20px;
         background-color: rgb(150 150, 163);
         border-radius: 5px;
         border-top: 2px solid yellow;
+        box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
+}
+.service2:hover{
+        transform: translateY(-10px) ;      
 }
 .service3{
-        border: 2px dotted black;
+        
         padding: 20px;
         background-color: rgb(150 150, 163);
         border-radius: 5px;
-        border-bottom: 2px solid red;
+        border-top: 2px solid red;
+        box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
+}
+.service3:hover{
+        transform: translateY(-10px) ;
 }
 .service4{
-        border: 2px dotted black;
+       
         padding: 20px;
         background-color: rgb(150 150, 163);
         border-radius: 5px;
         border-top: 2px solid rgb(0, 255, 0);
+        box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
+}
+.service4:hover{
+        transform: translateY(-10px) ;
 }
 .h1service{
         text-align: center;

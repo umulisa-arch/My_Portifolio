@@ -9,6 +9,9 @@
         #projects{
                 flex-direction: column;
         }
+        .mainservice{
+                display: block;
+        }
       
       }
 

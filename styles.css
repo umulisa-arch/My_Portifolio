@@ -3,6 +3,9 @@
           text-align: center;
           /* flex-direction: column; */
         }
+        .logo{
+                display: none;
+        }
       
         header a {
           flex-direction: column;

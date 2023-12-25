@@ -10,7 +10,7 @@
                 flex-direction: column;
         }
         .mainservice{
-                display: inline-block;
+                flex-direction: column;
         }
       
       }

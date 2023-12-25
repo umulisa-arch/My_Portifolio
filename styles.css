@@ -1,6 +1,7 @@
 @media (max-width: 800px) {
         #links {
           text-align: center;
+          /* flex-direction: column; */
         }
       
         header a {

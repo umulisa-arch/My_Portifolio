@@ -23,7 +23,7 @@
         #projects{
                 flex-direction: column;
         }
-        .mainp1{
+        .mainp1, .mainp2, .mainp3{
                 overflow: hidden;
         }
         .mainservice{

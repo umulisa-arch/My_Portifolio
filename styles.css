@@ -7,6 +7,9 @@
           flex-direction: column;
           padding-top: 50px;
         }
+        .MainAbout{
+                flex-direction: column;
+        }
         .logo{
                 display: none;
         }

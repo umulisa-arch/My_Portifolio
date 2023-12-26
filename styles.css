@@ -10,6 +10,9 @@
         .MainAbout{
                 flex-direction: column;
         }
+        .Maincontact{
+                flex-direction: column;
+        }
         .logo{
                 display: none;
         }

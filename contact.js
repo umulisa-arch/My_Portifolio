@@ -1,3 +1,4 @@
+ function submitToGoogleSheet(){
 document.getElementById('myForm').addEventListener('submit', function(e) {
   e.preventDefault();
   var formData = new FormData(this);
@@ -12,3 +13,4 @@ document.getElementById('myForm').addEventListener('submit', function(e) {
   })
   .catch(error => console.error('Error:', error));
 });
+}

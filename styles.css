@@ -209,6 +209,14 @@ form{
         justify-content: center;
         padding-left: 50px;
 }
+.alert {
+        display: none;
+        padding: 15px;
+        background-color: #54a008;
+        color: white;
+        border-radius: 5px;
+        
+      }
 input{
         padding: 6px;
         border-radius: 5px;
@@ -226,7 +234,8 @@ textarea{
         width: 270px;
 }
 .sendmessage:hover{
-        background-color: #0ebf1d;
+        background-color: rgb(241, 183, 183);
+        color: black;
 }
 .MainAbout{
         display: flex;

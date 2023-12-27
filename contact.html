@@ -57,10 +57,10 @@
     <input type="text" id="getsubject" name="subject" placeholder="Subject...." required autocomplete="on"><br><br><br>
     <label for="message">Your message goes here:</label>
     <textarea name="message" id="getmessage" cols="32" rows="10" placeholder="Type your message..." required ></textarea><br><br>
-    <button class="sendmessage"  type="submit" id="sendButton">SEND MESSAGE</button>
+    <button class="sendmessage"  type="submit" id="sendButton" onclick="showAlert()">SEND MESSAGE</button>
 </form>
 <br>
-<span style="color: greenyellow;">Message sent well !!</span>
+<div id="alertMsg" style="color: greenyellow;">Message sent well !!</div>
     </div>
    </div>
 

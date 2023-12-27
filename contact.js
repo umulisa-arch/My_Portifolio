@@ -8,6 +8,16 @@ document.getElementById('sendButton').addEventListener('click', function (event)
   // Send email using mailto
   const mailtoLink = `mailto:agnesrukundo1998@gmail.com?subject=Message from ${name} : ${subject} &body=${message}%0A%0AReply to: ${email}`;
   window.location.href = mailtoLink;
+
+  function showAlert() {
+    var alertBox = document.getElementById("alertMsg");
+    alertBox.style.display = "block";
+
+    setTimeout(function(){
+      alertBox.style.display = "none";
+    }, 3000);
+  }
+  showAlert();
   // return alert("Your data sent well!!");
 
 

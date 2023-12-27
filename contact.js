@@ -6,6 +6,6 @@ document.getElementById('sendButton').addEventListener('click', function (event)
   const message = document.getElementById('getmessage').value;
 
   // Send email using mailto
-  const mailtoLink = `mailto:agnesrukundo1998@gmail.com?Message from ${name} &email=${email} &suject=${subject} &body=${message}%0A%0AReply to: ${email}`;
+  const mailtoLink = `mailto:agnesrukundo1998@gmail.com?subject=Message from ${name} &email=${email} &suject=${subject} &body=${message}%0A%0AReply to: ${email}`;
   window.location.href = mailtoLink;
 });

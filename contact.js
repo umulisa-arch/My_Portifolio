@@ -4,9 +4,10 @@ document.getElementById('sendButton').addEventListener('click', function (event)
   const email = document.getElementById('getemail').value;
   const subject = document.getElementById('getsubject').value;
   const message = document.getElementById('getmessage').value;
+  const phone = document.getElementById('getphone').value;
 
   // Send email using mailto
-  const mailtoLink = `mailto:agnesrukundo1998@gmail.com?subject=Message from ${name} : ${subject} &body=${message}%0A%0AReply to: ${email}`;
+  const mailtoLink = `mailto:agnesrukundo1998@gmail.com?subject=Message from ${name} / ${phone} : ${subject} &body=${message}%0A%0AReply to: ${email}`;
   window.location.href = mailtoLink;
 
   function showAlert() {
@@ -15,7 +16,7 @@ document.getElementById('sendButton').addEventListener('click', function (event)
 
     setTimeout(function(){
       alertBox.style.display = "none";
-    }, 5000);
+    }, 6000);
   }
   showAlert()
   // return alert("Your data sent well!!");

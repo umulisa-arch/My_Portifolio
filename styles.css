@@ -1,6 +1,7 @@
 @media (max-width: 800px) {
         .container1{
                 flex-direction: column;
+                align-items: center;
         }
         #links {
           /* text-align: center; */

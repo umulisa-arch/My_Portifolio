@@ -16,7 +16,7 @@ document.getElementById('sendButton').addEventListener('click', function (event)
 
     setTimeout(function(){
       alertBox.style.display = "none";
-    }, 6000);
+    }, 4000);
   }
   showAlert()
   // return alert("Your data sent well!!");

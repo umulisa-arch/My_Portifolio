@@ -6,7 +6,10 @@
         #links {
           /* text-align: center; */
           flex-direction: column;
-          padding-top: 50px;
+          /* padding-top: 50px; */
+        }
+        .certificate{
+                margin-left: 1000px;
         }
         .MainAbout{
                 flex-direction: column;
@@ -24,7 +27,7 @@
         #projects{
                 flex-direction: column;
         }
-        .mainp1, .mainp2, .mainp3, .mainp4, .mainp5{
+        .mainp1, .mainp2, .mainp3, .mainp4, .mainp5, .mainp6{
                 overflow: hidden;
                 margin-left: 0px;
         }
@@ -98,9 +101,10 @@ a{
 .link:visited {
         color: rgb(59, 207, 14); /* Change color for visited links */
       }
-a:hover{
+
+/* a:hover{
         background-color: #3D77A0;
-      }
+      } */
 .logo{
         width: 8rem;
         height: 5rem;
@@ -395,6 +399,7 @@ h1{
 }
 
 
+
 .p2{
         margin-top: -25px;
 }
@@ -403,7 +408,16 @@ h1{
 }
 #linkproject1, #linkproject2, #linkproject3, #linkproject4, #linkproject5, #linkproject6{
         text-align: center;
-        padding-top: 15px;
+        padding: 15px;
+        border: 1px solid rgb(15, 15, 49);
+        margin: 5px 140px;
+        border-radius: 30px;
+        
+}
+
+#linkproject1:hover, #linkproject2:hover, #linkproject3:hover, #linkproject4:hover, #linkproject5:hover, #linkproject6:hover{
+        background: rgb(61, 60, 128);
+        border-radius: 30px;
 }
 
 .p1 img{

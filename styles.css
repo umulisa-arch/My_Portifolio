@@ -13,9 +13,13 @@
         }
         .MainAbout{
                 flex-direction: column;
+                align-items: center;
+                overflow: hidden;
         }
+        
         .Maincontact{
                 flex-direction: column;
+                align-items: center;
         }
         .logo{
                 display: none;
@@ -183,7 +187,7 @@ background-color: rgb(21, 117, 85);
         right: ;
 } */
 .mailcall{
-width: 300px;
+width: 400px;
 height: 200px;
 background-color: rgb(225, 197, 197);
 margin-left: 20px;
@@ -260,6 +264,7 @@ textarea{
         background-image: url(images/AgneI.jpg);
         width: 800px;
         height: 800px;
+       
 }
 
 .skills{

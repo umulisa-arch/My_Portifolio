@@ -220,12 +220,12 @@ border: 2px solid blue;
 }
      
 .contact2{
-        width: 400px;
-        height: 690px;
+        width: 450px;
+        height: 720px;
         background-color: rgb(225, 197, 197);
         border-radius: 10px;
 }
-#nameError{
+#nameError, #emailError, #phoneError, #subjectError, #messageError{
         color: red;
 }
 .Maincontact{
@@ -239,7 +239,7 @@ form{
         border-radius: 5px;
         padding: 10px;
         justify-content: center;
-        padding-left: 50px;
+        padding-left: 75px;
 }
 .alert {
         display: none;

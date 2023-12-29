@@ -61,6 +61,8 @@
         font-family: 'poppins' sans-serif;
         font-size: 28px;
         color: rgb(25, 9, 65);
+        
+
 }
 /*@keyframes mehome{
         0%{
@@ -113,6 +115,30 @@ a{
 a{
         text-decoration: none;
     }
+#a1:hover{
+        background-color: chocolate;
+
+}
+#a2:hover{
+        background-color: chocolate;
+
+}
+#a3:hover{
+        background-color: chocolate;
+
+}
+#a4:hover{
+        background-color: chocolate;
+
+}
+#a5:hover{
+        background-color: chocolate;
+
+}
+#a6:hover{
+        background-color: chocolate;
+
+}
    
 .link:visited {
         color: rgb(59, 207, 14); /* Change color for visited links */
@@ -147,7 +173,9 @@ a{
 margin-left: 18px;
 color: rgb(56, 40, 107);
 font-weight: bold;  
-font-size: 20px;    
+font-size: 20px;
+
+  
 }
 .namehome{
         margin-left: 20px;
@@ -203,12 +231,14 @@ background-color: rgb(21, 117, 85);
         right: ;
 } */
 .mailcall{
-width: 400px;
+width: 450px;
 height: 200px;
 background-color: rgb(225, 197, 197);
-margin-left: 20px;
+margin-left: 35px;
 border-radius: 10px;
 border: 2px solid blue;
+box-shadow: black;
+box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
 }
 .pmailcall{
         color: rgb(0, 0, 0);
@@ -218,12 +248,17 @@ border: 2px solid blue;
 .spanemail{
         color: blue;
 }
+.h2contact{
+        margin-left: 35px;
+}
      
 .contact2{
         width: 450px;
         height: 720px;
         background-color: rgb(225, 197, 197);
         border-radius: 10px;
+        box-shadow: black;
+        box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
 }
 #nameError, #emailError, #phoneError, #subjectError, #messageError{
         color: red;
@@ -240,6 +275,7 @@ form{
         padding: 10px;
         justify-content: center;
         padding-left: 75px;
+        
 }
 .alert {
         display: none;

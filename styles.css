@@ -168,7 +168,9 @@ a{
         width: 15rem;
         height: 15rem;
         border-radius: 50%;
-        border: 2px solid blue;
+        box-shadow: 0 0 10px 5px rgba(0, 0, 250, 0.5);
+        transition: box-shadow 1s ease-in-out;
+
 
       }
 .frontend{

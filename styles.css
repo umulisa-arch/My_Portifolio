@@ -169,7 +169,7 @@ background-color: rgb(21, 117, 85);
         text-align: center;
         margin-top: 100px;
         background-color: rgb(15, 15, 49);
-        height: 40px;
+        height: 100px;
         align-items: center;
         /* border-radius: 50px; */
         padding: 20px;
@@ -180,6 +180,9 @@ background-color: rgb(21, 117, 85);
         margin-right: -10px;
         /* position: fixed;
         bottom: 0; */
+}
+.phone{
+        padding-top: 100px;
 }
 /* .phone{
         position: fixed;

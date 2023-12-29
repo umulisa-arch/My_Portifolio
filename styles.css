@@ -255,16 +255,16 @@ textarea{
         border-radius: 5px;
 }
 .sendmessage{
-        color: white;
-        background-color: rgb(41, 41, 173);
+        color: rgb(255, 255, 255);
+        background-color: rgb(40, 11, 185);
         border-radius: 5px;   
-        padding: 7px;
+        padding: 10px;
         cursor: pointer;
         width: 270px;
 }
 .sendmessage:hover{
-        background-color: rgb(241, 183, 183);
-        color: black;
+        background-color: rgb(93, 154, 198);
+        /* color: black; */
 }
 .MainAbout{
         display: flex;

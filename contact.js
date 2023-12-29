@@ -1,14 +1,26 @@
 document.getElementById('sendButton').addEventListener('click', function (event) {
-  event.preventDefault();
+  let messages = []
+  if(name.value === '' || name.value == null){
+    messages.push('Name is required')
+  }
+  if(messages.length>0){
+    event.preventDefault();
+    errorElement.innerText = messages.join(',')
+  }
+  
   const name = document.getElementById('getname').value;
   const email = document.getElementById('getemail').value;
   const subject = document.getElementById('getsubject').value;
-  const message = document.getElementById('getmessage').value;
+  let message = document.getElementById('getmessage').value;
   const phone = document.getElementById('getphone').value;
+  const form = document.getElementById('formSubmit')
+  const errorElement = document.getElementById('error')
 
   // Send email using mailto
   const mailtoLink = `mailto:agnesrukundo1998@gmail.com?subject=Message from ${name} / ${phone} : ${subject} &body=${message}%0A%0AReply to: ${email}`;
   window.location.href = mailtoLink;
+
+  //for alert message after sending a message
 
   function showAlert() {
     var alertBox = document.getElementById("alertMsg");

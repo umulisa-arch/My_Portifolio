@@ -24,27 +24,27 @@ document.getElementById('sendButton').addEventListener('click', function () {
 
   // Validation
   if (name.trim() === "") {
-      nameError.textContent = "Please enter your name";
+      nameError.textContent = "Please enter your name!!";
       isValid = false;
   }
 
   if (email.trim() === "") {
-      emailError.textContent = "Please enter your email";
+      emailError.textContent = "Please enter your email!!";
       isValid = false;
   }
 
   if (phone.trim() === "") {
-      phoneError.textContent = "Please enter your phone number";
+      phoneError.textContent = "Please enter your phone number!!";
       isValid = false;
   }
 
   if (subject.trim() === "") {
-      subjectError.textContent = "Please enter the subject";
+      subjectError.textContent = "Please enter the subject!!";
       isValid = false;
   }
 
   if (message.trim() === "") {
-      messageError.textContent = "Please enter your message";
+      messageError.textContent = "Please enter your message!!";
       isValid = false;
   }
 

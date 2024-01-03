@@ -11,16 +11,7 @@
         .certificate{
                 margin-left: 1000px;
         }
-        .MainAbout{
-                flex-direction: column;
-                align-items: center;
-                overflow: hidden;
-        }
         
-        .Maincontact{
-                flex-direction: column;
-                align-items: center;
-        }
         .logo{
                 display: none;
         }
@@ -39,13 +30,14 @@
                 margin-left: 0px;
                 
         }
-        .mainservice{
-                flex-direction: column;
-        }
+       
         /* .service1{
                 text-align: center;
 
         } */
+        .h2contact{
+                text-align: center;
+        }
         
       
       }
@@ -70,6 +62,27 @@
                 
         
         } 
+}
+@media(max-width: 537px){
+        .mailcall{
+                margin-left: 25px;
+        }
+}
+@media(max-width:926px){
+        .MainAbout{
+                flex-direction: column;
+                align-items: center;
+                overflow: hidden;
+        }
+        
+        .Maincontact{
+                flex-direction: column;
+                align-items: center;
+        }
+        .mainservice{
+                flex-direction: column;
+        }
+
 }
 
 
@@ -185,6 +198,10 @@ a{
         display: flex;
         justify-content: space-between;
       }
+.welcome{
+        font-size: 20px;
+        color: rgb(199, 207, 214);
+}
 .mehome{
         font-size: 30px;
         color: white;
@@ -199,9 +216,13 @@ a{
 
 
       }
+.namehome{
+        color: white;
+}
 .frontend{
 margin-left: 18px;
-color: rgb(56, 40, 107);
+/* color: rgb(56, 40, 107); */
+color: rgb(199, 207, 214);
 font-weight: bold;  
 font-size: 20px;
 
@@ -272,6 +293,9 @@ border: 2px solid blue;
 box-shadow: black;
 box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
 }
+.mailcall:hover{
+        background-color:rgb(61, 119, 160);
+}
 .pmailcall{
         color: rgb(0, 0, 0);
         text-align: center;
@@ -282,6 +306,7 @@ box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
 }
 .h2contact{
         margin-left: 35px;
+        color: aliceblue;
 }
      
 .contact2{
@@ -292,6 +317,10 @@ box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
         box-shadow: black;
         box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
 }
+.contact2:hover{
+        background: rgb(61, 119, 160);
+}
+
 #nameError, #emailError, #phoneError, #subjectError, #messageError{
         color: red;
 }

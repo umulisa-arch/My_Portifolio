@@ -157,6 +157,8 @@ a{
     }
 #a1:hover{
         background-color: chocolate;
+        /* background-color: rgb(112, 167, 207);
+        color: black; */
 
 }
 #a2:hover{
@@ -218,6 +220,9 @@ a{
       }
 .namehome{
         color: white;
+}
+.rukundo{
+        color: rgb(0, 255, 0);
 }
 .frontend{
 margin-left: 18px;
@@ -290,11 +295,13 @@ background-color: rgb(225, 197, 197);
 margin-left: 35px;
 border-radius: 10px;
 border: 2px solid blue;
-box-shadow: black;
+/* box-shadow: black; */
 box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
 }
 .mailcall:hover{
         background-color:rgb(61, 119, 160);
+        /* background-color: rgb(30, 30, 109); */
+        
 }
 .pmailcall{
         color: rgb(0, 0, 0);
@@ -323,6 +330,8 @@ box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
 
 #nameError, #emailError, #phoneError, #subjectError, #messageError{
         color: red;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
 }
 .Maincontact{
         justify-content: space-around;

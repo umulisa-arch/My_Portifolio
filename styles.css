@@ -402,7 +402,8 @@ textarea{
         transition: transform 0.3s ease;
         background-color: transparent;
         padding: 40px;
-        color: aliceblue;    
+        color: aliceblue; 
+        margin-top: 25px;  
 }
 .service3{
         
@@ -418,6 +419,7 @@ textarea{
         background-color: transparent;
         padding: 40px;
         color: aliceblue;
+        margin-top: 25px;  
 }
 .service4{
        
@@ -433,11 +435,12 @@ textarea{
         background-color: transparent;
         padding: 40px;
         color: aliceblue;
+        margin-top: 25px;  
 }
 .h1service{
         text-align: center;
         margin-top: 100px; 
-        color:rgb(39, 39, 49);
+        color:aliceblue;;
 }
 hr{
         width: 200px;

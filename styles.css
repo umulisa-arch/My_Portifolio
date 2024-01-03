@@ -399,7 +399,10 @@ textarea{
 }
 .service2:hover{
         transform: translateY(-20px) ;  
-        transition: transform 0.3s ease;    
+        transition: transform 0.3s ease;
+        background-color: transparent;
+        padding: 40px;
+        color: aliceblue;    
 }
 .service3{
         
@@ -410,8 +413,11 @@ textarea{
         box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
 }
 .service3:hover{
-        transform: translateY(20px) ;
+        transform: translateY(-20px) ;
         transition: transform 0.3s ease;
+        background-color: transparent;
+        padding: 40px;
+        color: aliceblue;
 }
 .service4{
        
@@ -422,8 +428,11 @@ textarea{
         box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
 }
 .service4:hover{
-        transform: translateY(20px) ;
+        transform: translateY(-20px) ;
         transition: transform 0.3s ease;
+        background-color: transparent;
+        padding: 40px;
+        color: aliceblue;
 }
 .h1service{
         text-align: center;

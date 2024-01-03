@@ -53,10 +53,23 @@
 @media(max-width:579px){
     .p1 img{
         width: 400px;
-        height: 400px;
+        height: 300px;
+        margin-left: 20px;
+        overflow: hidden;
         
 
-    }    
+    } 
+       
+}
+@media (max-width: 508px){
+       .p1 img{
+                width: 250px;
+                height: 175px;
+               margin-left: 60px;
+                overflow: hidden;
+                
+        
+        } 
 }
 
 

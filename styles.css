@@ -51,8 +51,11 @@
       }
 
 @media(max-width:579px){
-    .p1{
+    .p1 img{
+        width: 400px;
+        height: 400px;
         
+
     }    
 }
 

@@ -385,6 +385,9 @@ textarea{
 .service1:hover{
         transform: translateY(-20px) ;
         transition: transform 0.3s ease;
+        background-color: transparent;
+        padding: 40px;
+        color: aliceblue;
 }
 .service2{
         
